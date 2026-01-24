@@ -1,0 +1,67 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)),
+        url("https://raw.githubusercontent.com/lakshtanna/laksh/main/assets/images/bgimg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/*
+body
+{
+    background-image: url("https://raw.githubusercontent.com/lakshtanna/laksh/main/assets/images/bgimg.png");
+    
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    
+}
+*/
+
+
+
+/*
+background colour,font family and size is applicable all over programm since its in body section except for those having predefined meaning like h1/b/u...
+*/
+
+h1 {
+    font-size: 30px;
+}
+
+/*
+h1 only implimented on h1 style fonts
+*/
+
+.seconde {
+    font-size: 16px;
+    color: rgb(245, 4, 4);
+    font-family: Helvetica;
+    border: 5px solid black;
+}
+
+
+/*
+.seconde used here is like function calling form class as in c++
+for id its,
+#enter-your-name(id name(like object))
+border provides border along content
+*/
