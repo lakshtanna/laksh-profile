@@ -1,8 +1,11 @@
 body {
-    background-color: rgb(250, 212, 218);
+    background-color: lightgoldenrodyellow;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 15px;
 }
+
+
+
 
 /*
 background colour,font family and size is applicable all over programm since its in body section except for those having predefined meaning like h1/b/u...
@@ -18,8 +21,8 @@ h1 only implimented on h1 style fonts
 
 .seconde {
     font-size: 16px;
-    color: rgb(255, 255, 167);
-    font-family: Franklin Gothic Medium;
+    color: rgb(245, 4, 4);
+    font-family: Helvetica;
     border: 5px solid black;
 }
 
