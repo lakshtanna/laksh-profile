@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*it does help to add padding width etc..*/
+/* by width we can contro size of blocks we used*/
+body {
+    padding: 50px;
+    /*this moves the content away from border*/
+
+
+
+    /*to add back ground image */
+    margin: 0;
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://raw.githubusercontent.com/lakshtanna/laksh/main/assets/images/bgimg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*backimg end*/
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: lightgoldenrodyellow;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+/*
+background colour,font family and size is applicable all over programm since its in body section except for those having predefined meaning like h1/b/u...
+*/
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    /* this adds extra space between two text just like (br)*/
+}
+
+/*
+h1 only implimented on h1 style fonts
+*/
+h2 {
+    margin-bottom: 20px;
+    /*text-align: center;*/
+    /* alligns text at center or wherever we want*/
+}
+
+.seconde {
+    width: 310px;
+    /* helps to make box size control*/
+    font-size: 16px;
+    color: rgb(245, 4, 4);
+    font-family: Helvetica;
+    border: 5px solid lightblue;
+}
+
+input,
+button {
+    padding: 4px;
+    font-size: 12px;
+}
+
+
+/*this adds box to our external link:
+
+a {
+    background-color: rgba(171, 245, 245, 0.692);
+}
+    */
+
+
+/*
+.seconde used here is like function calling form class as in c++
+for id its,
+#enter-your-name(id name(like object))
+border provides border along content
+*/
